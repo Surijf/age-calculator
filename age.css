@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  background-image: url(cal-back.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 50px;
+}
+.container{
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: rgb(255, 253, 253);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2{
+  background-position: center;
+  text-align: center;
+  color: #353333;
+}
+label{
+  display: block;
+  margin-bottom: 10px;
+}
+input[type="date"]{
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+}
+button{
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+}
+button{
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover{
+  background: #0056b3;
+}
+p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #36481bb5;
+}
